@@ -1,0 +1,322 @@
+.UpperBorder{
+	border-style:solid;
+	width:1166px;
+	height:108px;
+	margin-left:161px;
+	background-color:#012340;
+	border-top-color:yellow;
+	border-left-width:0px;
+	color:white;
+			}
+			.logo{
+				margin-left:0.5px;
+				margin-top:-114PX;
+				height:60%;
+				
+			}
+			
+	Header
+	{
+		background-image: url("https://images.unsplash.com/photo-1464925257126-6450e871c667?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80");
+		height:100vh;
+		background-size:cover;
+		background-position:center;
+	}
+	.TitleName{
+		margin-left:5px;
+		margin-top:40px;
+		font-size:20px;
+	}
+	.Search{
+				margin-left:830px;
+				margin-top:-80px;
+			}
+	.Slogen{
+		
+		font-size:5px;
+		
+	}
+	
+	.buttons ul{
+		list-style-type:none;
+		float:right;
+		margin-top:-50px;
+		
+	}
+	.buttons ul li{
+		
+		display:inline;
+	}
+	.buttons ul li a{
+		
+		text-decoration:none;
+		color:#fff;
+		padding:5px 20px;
+		border:1px solid transparent;
+		transition:0.6s ease;
+	}
+	.buttons ul li a:hover{
+		background-color:#fff;
+		color:#000;
+	}
+	.buttons ul li.active a{
+		background-color:#fff;
+		color:#000;
+		
+	}
+	.buttons{
+		margin-top:-250px;
+		margin-left:40px;
+	}
+	
+		.intro{
+		margin-left:1060px;
+		margin-top:-80px;
+		text-align:center;
+		color:pink;
+		font-size:30px;
+		background-color:white;
+		border-radius:10px;
+		margin-right:20px;
+		width:260px;
+	}
+	
+	.Leftsideborder{
+		
+		.Leftsideborder h3{
+		margin-left:40px;
+		margin-top:-10px;
+		color:white;
+	}
+	}
+	.list1 ul{
+		
+		list-style:none;
+		margin:5px;
+		padding:10px;
+		
+		
+		
+		}
+		
+	.list1 ul li{
+		
+		padding:15px;
+		position:relative;
+		width:150px;
+		
+		background-color:#34495E;
+		border-top:2px solid #BDC3C7;
+		border-right:4px solid green;
+		
+		
+	}
+	.list1 ul ul{
+		transition:all 0.3s;
+		opacity:0;
+		position:absolute;
+		visibility:hidden;
+		left:100%;
+		top:-2%;
+	}
+	.list1 ul li:hover > ul{
+		opacity:1;
+		visibility:visible;
+	}
+	
+	.list1 ul li a{
+		
+		color:#fff;
+		text-decoration:none;
+		
+	}
+	
+	
+	.list1 ul li a:hover{
+		background-color:#fff;
+		color:#000;
+		width:150;
+		padding:10px 25px;
+	}
+			
+
+
+		
+		.MidBorder{
+			
+			margin-top:-280px;
+			margin-left:160px;
+			padding-left:50px;
+			
+			
+		}
+		.MidBorder h2{
+			color:white
+		}
+		.desc{
+			padding:15px;
+			text-align:center;
+			color:white;
+			
+		}
+		.desc:a{
+			text-decoration:none;
+		}
+		
+		.Border{
+			border-style:solid;
+			border-width:1.2px;
+			width:300px;
+			height:370px;
+			margin-top:-10px;
+		}
+		.Border h3{
+			margin-top:0px;
+			color:Silver;
+		}
+		.Border hr{
+			width:300px;
+			margin-top:-20px;
+			
+		}
+		.Border h4{
+			margin-top:0px;
+			color:Silver;
+		}
+		.Border p{
+			margin-top:-20px;
+			color:white;
+		}
+		
+		.Border1{
+			border-style:solid;
+			border-width:1.2px;
+			width:300px;
+			height:370px;
+			margin-top:-372px;
+			margin-left:310px;
+		}
+		.Border1 h3{
+			margin-top:0px;
+			color:Silver;
+		}
+		.Border1 p{
+			
+			color:white;
+		}
+		.Border1 hr{
+			width:300px;
+			margin-top:-20px;
+			
+		}
+		.Border2{
+			border-style:solid;
+			border-width:1.2px;
+			width:300px;
+			height:370px;
+			margin-top:-372px;
+			margin-left:620px;
+		}
+		.Border2 h3{
+			margin-top:0px;
+			color:silver;
+			
+		}
+		.Border2 p{
+			color:white;
+		}
+		.Border2 hr{
+			width:300px;
+			margin-top:-20px;
+			
+		}
+		
+		
+		.tab {
+		  overflow: hidden;
+ 		 border: 1px solid #ccc;
+ 		 background-color: #f1f1f1;
+		}
+
+		.tab button {
+ 		 background-color: inherit;
+  		float: left;
+ 		 border: none;
+  		outline: none;
+  		cursor: pointer;
+  		padding: 14px 16px;
+  		transition: 0.3s;
+  		font-size: 17px;
+		}
+
+		/* Change background color of buttons on hover */
+			.tab button:hover {
+			  background-color: #ddd;
+			}
+
+			/* Create an active/current tablink class */
+			.tab button.active {
+			  background-color: #ccc;
+			}
+
+			/* Style the tab content */
+			.tabcontent {
+			  display: none;
+			  padding: 6px 12px;
+			  border: 1px solid #ccc;
+			  border-top: none;
+			}
+			#DISCRIPTION{
+				background-color:#ddd;
+				text-align:justify;
+			}
+			#APPLICATION{
+				background-color:#ddd;
+				text-align:justify;
+			}
+					#FEATURES{
+						background-color:#ddd;
+						text-align:justify;
+						
+					}
+					#DOWNLOADS li a{
+						list-style:none;
+						color:white;
+					}
+					#DOWNLOADS{
+						background-color:#ddd;
+					}
+					.Buy{
+						margin-left:1100px;
+						margin-top:20px;
+						background-color:#012340;
+						border-style:solid;
+						color:white;
+						margin-right:10px;
+						text-align:center;
+					}
+					.button {
+		background-color:#428bca; 
+		border: none;
+		color: white;
+		padding: 10px 32px;
+				text-align: center;
+		  text-decoration: none;
+		  display: inline-block;
+		  font-size: 16px;
+		  margin: 4px 2px;
+		  cursor: pointer;
+		  -webkit-transition-duration: 0.4s; /* Safari */
+		  transition-duration: 0.4s;
+		  Border-radius:10px;
+		  margin-top:10px;
+		  margin-left:10px;
+		  border-color:#d43f3a;
+			}
+
+		.button1 {
+				box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+					}
+					footer{
+						background-color:black;
+					}

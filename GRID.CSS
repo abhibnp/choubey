@@ -1,0 +1,21 @@
+.container{
+	display:grid;
+	grid-gap:3px;
+	grid-template-columns:repeat(2,1fr);
+	grid-template-rows:40px 200px 40px;
+	background-color:blue;
+	color:black;
+}
+	.header{
+		grid-columns:1/-1;
+		
+	}
+	.menu{
+		
+	}
+	.content{
+		grid-columns:2/-1;
+	}
+	.footer{
+		grid-columns:1/-1;
+	}
